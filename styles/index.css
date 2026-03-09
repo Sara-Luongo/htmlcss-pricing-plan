@@ -3,3 +3,72 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+
+.title-container {
+    padding-left: 30px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.plan-card {
+    flex-basis: calc(33.33% - 15px);
+    flex-shrink: 0;
+    flex-grow: 1;
+    background-color: yellow;
+
+
+
+}
+
+.subtitle-card {
+    color: gray;
+}
+
+.price {
+    align-items: center;
+}
+
+.dollar {
+    width: 10px;
+}
+
+.number {
+    font-size: 40px;
+}
+
+.month {
+    color: gray;
+}
+
+.discount {
+    background-color: gray;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.plan-button {
+    background-color: gray;
+    border-radius: 20px;
+    padding: 15px 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.feature-list {
+    list-style: none;
+}
